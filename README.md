@@ -2,7 +2,9 @@
 
 In this test, you will be creating a select dropdown component using React that fetches data from an API and displays the list of CPT codes in a dropdown menu. When a user selects a CPT code from the dropdown, two additional components should render: a display of the average cost associated with that code and a form to submit a new cost.
 
-You will be asked to create a video demonstrating the requested functionality and explaining which libraries you used and why.  Please keep this is mind as you are developing this probject.
+You will be asked to create a video demonstrating the requested functionality and explaining which libraries you used and why.  Please keep this in mind as you are developing this probject.
+
+>Current Procedural Terminology, more commonly known as CPT, refers to a medical code set created and maintained by the American Medical Association — and used by physicians, allied health professionals, nonphysician practitioners, hospitals, outpatient facilities, and laboratories to represent the services and procedures they perform.
 
 ## All data should be accessed through the following API endpoints
    ```
@@ -20,9 +22,9 @@ You will be asked to create a video demonstrating the requested functionality an
 
 1. Create a select component for CPT code.  Options should be the "code" from the cptCode data and are fetched using the API.
 
-2. When a CPT code is selected, as separate component should display the average cost associated with that code.  This should be the "cost" entry under "costs".
+2. When a CPT code is selected, a separate component should display the average cost associated with that code.  This should be the "cost" entry under the "costs" endpoint.
 
-3. When a CPT code is selected, a form should become available to enter a new cost under the selected CPT.  The form should post data through the API.  For example: 
+3. When a CPT code is selected, a form should become available to enter a new cost for the selected CPT.  The form should post data through the API.  For example: 
 
    HTTP
    ```
@@ -56,12 +58,12 @@ You will be asked to create a video demonstrating the requested functionality an
 
 6. A short video (max 5 minutes) explaining your process and choice of libraries.  In addition, please address these specific topics in your video:
 
-   - Explain the process of creating a custom React component while providing detail about the lifestyle methods and props involved
-   - How you handle state management in a React application
+   - Explain the process of creating a custom React component while providing detail about the lifestyle methods and props involved.
+   - How you handle state management in a React application.
 
 ## Guidelines
 
-1. You can use any React library of your choice to create the components.
+1. You can use any React library of your choosing to create the components.
 
 2. Use React hooks like useState and useEffect to manage the component state and data fetching.
 
@@ -77,7 +79,7 @@ You will be asked to create a video demonstrating the requested functionality an
 
 2. Implement the select dropdown, average cost, and form components according to the requirements.
 
-3. Record a short video (maximum 5 minutes) explaining your process and the libraries you used.  Please save the video in an MP4 or MPEG format and include in the repository.
+3. Record a short video (maximum 5 minutes) explaining your process and the libraries you used.  Please save the video in a MP4 or MPEG format and include in the repository.
 
 4. Send UMB the link to your repository.
 
