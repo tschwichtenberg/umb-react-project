@@ -66,6 +66,7 @@ const AddCost = ({ costCode, onUpdateAverageCost }) => {
         <br />
         <TextField
           label="Facility Type"
+          name="facility"
           type="text"
           value={facilityType}
           onChange={(e) => setFacilityType(e.target.value)}
